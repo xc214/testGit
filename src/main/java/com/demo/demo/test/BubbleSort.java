@@ -1,14 +1,6 @@
 package com.demo.demo.test;
 
 public class BubbleSort {
-
-  public static void main(String[] args) {
-    int[] arry = {66, 43, 1, 78, 5, 39, 14, 2, 51};
-    BubbleSort bubbleSort = new BubbleSort();
-    bubbleSort.sort(arry);
-    bubbleSort.resort(arry);
-  }
-
   /**
    * 冒泡排序
    * @param arrys
@@ -40,7 +32,7 @@ public class BubbleSort {
   }
 
   public void showData(int[] arrys){
-    System.out.println("********排序后的数据为*********");
+    System.out.println("********冒泡排序后的数据为*********");
     for (int s:arrys){
       System.out.println(s);
     }
